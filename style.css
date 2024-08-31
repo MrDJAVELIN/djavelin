@@ -45,7 +45,7 @@ body {
 
 @property --angle {
     syntax: "<angle>";
-    initial-value: 0deg;
+    initial-value: 1deg;
     inherits: false;
 }
 
