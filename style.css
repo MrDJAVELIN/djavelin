@@ -53,18 +53,19 @@ body {
 .card::before {
     content: "";
     position: absolute;
-    height: 99%;
-    width: 99%;
+    height: 100%;
+    width: 100%;
     background-image: conic-gradient(
         from var(--angle),
-        #fff 0%,
-        transparent 35%
+        transparent 40%,
+        #fff 50%,
+        transparent 60%
     );
     top: 50%;
     left: 50%;
     translate: -50% -50%;
     z-index: -1;
-    padding: 0px;
+    padding: 1px;
     border-radius: 25px;
     animation-name: borderanim;
     animation-duration: 10s;
@@ -73,7 +74,7 @@ body {
 }
 
 .card::before {
-    filter: blur(500px);
+    filter: blur(10px);
     opacity: 0.5;
 }
 
