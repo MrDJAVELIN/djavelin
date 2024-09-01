@@ -74,7 +74,7 @@ body {
 
 .card::before {
     filter: blur(500px);
-    opacity: 0.5;
+    opacity: 0.6;
 }
 
 @keyframes borderanim {
